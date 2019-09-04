@@ -13,8 +13,4 @@ class Genre
     @@all 
   end 
   
-  def artists
-    
-  end 
-  
 end 
