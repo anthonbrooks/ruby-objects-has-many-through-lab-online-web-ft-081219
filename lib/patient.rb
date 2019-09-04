@@ -22,7 +22,7 @@ class Patient
   end 
   
   def doctors 
-    Appointment.map { |doctor| doctor.patients == self }
+    Appointment.map { |appointment| appointment.doctor }
   end 
   
 end 
